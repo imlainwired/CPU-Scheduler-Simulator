@@ -1,21 +1,25 @@
 #include "sjf_non_preemptive.hpp"
 #include "fcfscomplete.hpp"       
 #include "priority_non_preemptive.hpp" 
-#include "srtf_preemptive.hpp"     
+#include "srtf_preemptive.hpp"       
+#include "round_robin.hpp"         
+#include "comparison_tool.hpp"   
 #include "scheduler_common.hpp" 
 #include <iostream>
 #include <limits> 
 
 void display_menu() {
     clearScreen();
-    // std::cout << "===========================================" << std::endl;
+    //std::cout << "===========================================" << std::endl;
     std::cout << "|| CPU Scheduling Algorithm Simulator ||" << std::endl;
-    // std::cout << "===========================================" << std::endl;
+    //std::cout << "===========================================" << std::endl;
     std::cout << "Select the option:" << std::endl;
     std::cout << "1. Shortest Job First (SJF) Algorithm (Non-Preemptive)" << std::endl;
     std::cout << "2. First-Come, First-Served (FCFS) Algorithm (Non-Preemptive)" << std::endl;
     std::cout << "3. Priority Scheduling Algorithm (Non-Preemptive)" << std::endl;
-    std::cout << "4. Shortest Remaining Time First (SRTF) Algorithm (Preemptive)" << std::endl; // NEW OPTION
+    std::cout << "4. Shortest Remaining Time First (SRTF) Algorithm (Preemptive)" << std::endl; 
+    std::cout << "5. Round Robin (RR) Scheduling Algorithm (Preemptive)" << std::endl; 
+    std::cout << "6. Compare All Algorithms (Fast Calculation)" << std::endl; // NEW OPTION
     std::cout << "0. Exit" << std::endl;
     std::cout << "Enter choice: ";
 }
@@ -45,12 +49,18 @@ int main() {
             case 4: 
                 run_srtf_preemptive_simulation();
                 break;
+            case 5: 
+                run_round_robin_simulation();
+                break;
+            case 6: // NEW CASE
+                run_all_algorithms_comparison();
+                break;
             case 0:
                 std::cout << "\nExiting the simulator. Goodbye!\n";
                 break;
             default:
                 clearScreen();
-                std::cout << "Invalid choice. Please enter 1, 2, 3, 4, or 0.\n";
+                std::cout << "Invalid choice. Please enter 1, 2, 3, 4, 5, 6, or 0.\n";
                 std::cout << "Press Enter to try again...";
                 std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                 std::cin.get();
