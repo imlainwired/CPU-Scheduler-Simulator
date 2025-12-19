@@ -10,9 +10,7 @@
 
 void display_menu() {
     clearScreen();
-    //std::cout << "===========================================" << std::endl;
     std::cout << "|| CPU Scheduling Algorithm Simulator ||" << std::endl;
-    //std::cout << "===========================================" << std::endl;
     std::cout << "Select the option:" << std::endl;
     std::cout << "1. Shortest Job First (SJF) Algorithm (Non-Preemptive)" << std::endl;
     std::cout << "2. First-Come, First-Served (FCFS) Algorithm (Non-Preemptive)" << std::endl;
