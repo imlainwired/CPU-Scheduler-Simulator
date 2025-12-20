@@ -1,1 +1,1 @@
-## CPU Sheduling Simulator:
+## CPU Sheduling Simulator.
