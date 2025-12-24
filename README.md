@@ -1,2 +1,2 @@
 ## CPU Sheduling Simulator.
-The program that stimulates the CPU Sheduling algorithms
+The program that stimulates the CPU Sheduling algorithms.
