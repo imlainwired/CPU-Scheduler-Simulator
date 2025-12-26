@@ -21,3 +21,35 @@ A console-based CPU Scheduling Simulator written in C++. It allows users to inpu
 4. A **final summary table** displayed at the end of the simulation.
 
 ![Alt Text](https://github.com/imlainwired/CPU-Scheduler-Simulator/blob/main/image_4.png)
+
+## 🕸 Requirements:
+
+- Visual Studio Code (or any C++ compatible code editor).
+- g++ compiler (GCC / MinGW for Windows).
+
+
+## 🖥️ Platform:
+- OS: Windows
+- Since the project contains multiple source files, compilation is handled using a Windows batch file.
+
+## 🖳 Compilation Instructions:
+1. Run the batch file:
+```
+simulator.bat
+```
+This will compile all .cpp files together and generate the executable.
+
+2. If you want to run it again:
+```
+simulator.exe
+```
+It takes less time after compiling the batch file.
+
+## 📊 Output:
+1. Live simulation progress.
+2. Clear execution flow per process.
+3. inal tabular summary.
+4. Easy comparison of algorithm performance.
+
+## ➰ Note: 
+```You can understand scheduling algorithms more effectively through bar-based simulation, as it clearly shows how different algorithms behave and interact under varying conditions.```
