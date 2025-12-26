@@ -31,7 +31,7 @@ A console-based CPU Scheduling Simulator written in C++. It allows users to inpu
 
 
 ## 🖥️ Platform:
-- OS: Windows
+- OS: Windows.
 - Since the project contains multiple source files, compilation is handled using a Windows batch file.
 
 ## 🖳 Compilation Instructions:
