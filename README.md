@@ -50,7 +50,7 @@ It takes less time after compiling the batch file.
 ## 📊 Output:
 1. Live simulation progress.
 2. Clear execution flow per process.
-3. inal tabular summary.
+3. Final tabular summary.
 4. Easy comparison of algorithm performance.
 
 ## ➰ Note: 
