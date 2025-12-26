@@ -14,5 +14,10 @@ A console-based CPU Scheduling Simulator written in C++. It allows users to inpu
 
 ## ⚙️ Features:
 1. Step-by-step **simulation bar** that visually represents process execution.
-2. **Clean and cool console output** for better readability.
-3. A **final summary table** displayed at the end of the simulation.
+
+![Alt Text](https://github.com/imlainwired/CPU-Scheduler-Simulator/blob/main/image_3.png)
+
+3. **Clean and cool console output** for better readability.
+4. A **final summary table** displayed at the end of the simulation.
+
+![Alt Text](https://github.com/imlainwired/CPU-Scheduler-Simulator/blob/main/image_4.png)
