@@ -109,7 +109,7 @@ It takes less time after compiling the batch file.
 ```
 ```
 If you find this project interesting or useful, consider giving it a ⭐.  
-You are welcome to **Fork** the repo and explore your own improvements 〰️.
+You are welcome to Fork the repo and explore your own improvements 〰️.
 ```
 
 ```
