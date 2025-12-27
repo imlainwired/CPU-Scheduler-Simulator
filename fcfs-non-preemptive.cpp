@@ -131,7 +131,7 @@ void run_fcfs_non_preemptive_simulation() {
     cout << "\n=== FCFS Non-Preemptive Simulation Complete ===" << endl;
     
     cout << "\n\033[1;36m| Process | AT | BT | CT | TAT | WT |\033[0m" << endl;
-    cout << "---------------------------------------" << endl;
+    cout << "----------------------------------------" << endl;
     for(const auto& proc : p) {
         cout << "| P" << setw(6) << left << proc.no << "|" 
              << setw(3) << proc.at << "|" 
